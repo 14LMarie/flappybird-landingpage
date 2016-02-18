@@ -24,6 +24,7 @@ body {
 body {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
 }
 
 i {
@@ -46,6 +47,15 @@ i {
     display: block;
 }
 
+.navbar-default,
+div.container-fluid,
+div.navbar-header,
+.navbar-collapse {
+    background-color: #114273;
+    border: none;
+    text-align: right;
+}
+
 header {
     background-color: #114273;
     padding-bottom: 1.5rem;
@@ -53,16 +63,13 @@ header {
 
 header h1 {
     font-family: 'Fontdiner Swanky', cursive;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #FED34B;
-    padding-top: 3.5rem;
     margin: 0;
 }
 
 header p {
     color: white;
-    font-size: 1.2rem;
-    margin-top: -0.3rem;
 }
 
 
@@ -87,7 +94,7 @@ section.features ul li {
 }
 
 section.features ul li img {
-    width: 12rem;
+    width: 22rem;
     border-radius: 28px;
 }
 
