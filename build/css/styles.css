@@ -9213,9 +9213,6 @@ html {
         border-radius: 28px;
         padding: 1.5rem;
         margin-top: 1rem; }
-        @media all and (min-width: 900px) {
-          html body .page-wrap section {
-            width: 200px; } }
         html body .page-wrap section ul li {
           list-style-type: none;
           display: inline-block;
