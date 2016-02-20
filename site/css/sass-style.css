@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    /* Header styles
+        (all the styles inside the < header > or < nav > tags)
+        */ }
+    html body i {
+      color: black; }
+    html body .page-wrap {
+      min-height: 100%;
+      /* equal to footer height */
+      margin-bottom: -142px; }
+      html body .page-wrap header {
+        background-color: #114273;
+        padding-bottom: 1.5rem; }
+        html body .page-wrap header .navbar-default {
+          background-color: #114273;
+          border: none;
+          text-align: right; }
+          html body .page-wrap header .navbar-default .container-fluid {
+            background-color: #114273;
+            border: none; }
+            html body .page-wrap header .navbar-default .container-fluid .navbar-header {
+              background-color: #114273;
+              border: none; }
+            html body .page-wrap header .navbar-default .container-fluid .navbar-collape {
+              background-color: #114273;
+              border: none; }
+        html body .page-wrap header h1 {
+          font-family: 'Fontdiner Swanky', cursive;
+          font-size: 3rem;
+          color: #FED34B;
+          margin: 0; }
+        html body .page-wrap header p {
+          color: white; }
+      html body .page-wrap section {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f1f1f1;
+        border-radius: 28px;
+        padding: 1.5rem;
+        margin-top: 1rem; }
+        html body .page-wrap section ul li {
+          list-style-type: none;
+          display: inline-block;
+          padding: 1rem; }
+          html body .page-wrap section ul li img {
+            width: 22rem;
+            border-radius: 28px; }
+      html body .page-wrap .call-to-action {
+        background-color: white; }
+        html body .page-wrap .call-to-action i {
+          font-size: 5rem; }
+    html body .page-wrap:after {
+      content: "";
+      display: block;
+      height: 142px; }
+    html body .site-footer {
+      height: 142px;
+      background-color: #d8d8d8; }
+      html body .site-footer hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+      html body .site-footer .icons {
+        list-style-type: none; }
+        html body .site-footer .icons li {
+          display: inline-block; }
+          html body .site-footer .icons li i {
+            font-size: 3rem;
+            padding: 0 0.5rem; }
